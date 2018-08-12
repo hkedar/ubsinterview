@@ -13,8 +13,8 @@ task wrapper(type: Wrapper){
 }
 
 repositories {
-    jcenter()
-    mavenCentral()
+    maven { url = "http://jcenter.bintray.com" }
+    maven { url = "http://repo.maven.apache.org/maven2" }
 }
 
 idea.module {
